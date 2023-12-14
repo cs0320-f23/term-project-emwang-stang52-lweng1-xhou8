@@ -1,0 +1,63 @@
+
+.my-recipelist{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: justify;
+    width: [width of img];
+}
+
+.my-recipelist div img{
+    padding:5px;
+    width:auto;
+}
+
+.recipe-title{
+    display: block;
+    width: 200px;
+}
+
+.user-id-search{
+    display:block;
+    width: 75%;
+    height: 50px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: larger;
+    margin:auto;
+}
+
+.user-text{
+    display:block;
+    width:40%;
+    margin-left:36%;
+    font-size: larger;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    padding: 10px;
+}
+
+.everything-else {
+    background-image:url("food2.jpg");
+}
+
+.user-div{
+    display:block;
+    margin:auto;
+}
+
+.gallery-button{
+    display: block;
+    width:40%;
+  height: 50px;
+    margin: auto;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: large;
+    margin-top:10px;
+      border-style:outset;
+  border-width:3px;
+  border-color:rgb(145, 217, 164);
+}
+.gallery-button:active{
+  opacity:0.85;
+}
+
